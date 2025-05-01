@@ -1,0 +1,12 @@
+# Ejercicio 3: Número par o impar
+
+# Pedir el número:
+numero = int(input("Ingresa un número entero: "))
+
+# Verificar si es par o impar:
+if numero % 2 == 0:
+    # Mostrar el mensaje:
+    print("El número es par")
+else:
+    # Mostrar el mensaje:
+    print("El número es impar")
