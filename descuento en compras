@@ -1,0 +1,16 @@
+# Ejercicio 5: Descuento en compras
+
+# Pedir el monto total:
+monto_total = float(input("Ingresa el monto total de la compra: "))
+
+# Verificar si corresponde descuento:
+if monto_total > 50000:
+    descuento = monto_total * 0.15
+    monto_final = monto_total - descuento
+else:
+    descuento = 0
+    monto_final = monto_total
+
+# Mostrar el resultado:
+print("Descuento aplicado: $", round(descuento, 2))
+print("El total a pagar es: $", round(monto_final, 2))
